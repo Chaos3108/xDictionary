@@ -27,7 +27,7 @@ function App() {
     if (meaning.length > 0) {
       setDefinition(meaning[0]?.meaning);
     } else {
-      setDefinition("Word not found in the dictionary");
+      setDefinition("Word not found in the dictionary.");
     }
   };
 
