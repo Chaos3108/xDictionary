@@ -40,6 +40,7 @@ function App() {
           onChange={(e) => {
             setWord(e.target.value);
           }}
+          type="text"
           placeholder="Search for a word..."
         ></input>
         <button type="submit"> submit</button>
